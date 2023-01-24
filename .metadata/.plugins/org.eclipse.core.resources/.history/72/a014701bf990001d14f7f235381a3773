@@ -1,0 +1,30 @@
+package 일차원배열;
+
+import java.util.Scanner;
+
+public class Ex06배열실습_숙제 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int [] array = new int[4];
+		
+		for ( int i = 1; i<=5; i++) {
+			System.out.printf("%d번째 입력 >> ",i);
+			int num = sc.nextInt();
+			array [i] = num;
+		}
+		
+		System.out.println("입력된 점수 : " + num);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

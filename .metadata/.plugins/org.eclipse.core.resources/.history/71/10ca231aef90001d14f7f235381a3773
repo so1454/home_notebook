@@ -1,0 +1,30 @@
+package 일차원배열;
+
+import java.util.Random;
+
+public class Ex04배열실습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//문제. 1차원 정수형 배열을 선언한 후 임의의 값으로 초기화합니다.
+		//배열의 값 중 짝수인 값만 출력하는 프로그램을 작성하세요.
+		
+		Random rn = new Random();
+		int num1 = rn.nextInt(10) +1;
+		int [] array1  = {num1};
+		
+		
+		System.out.printf("array에 들어있는 짝수는 %s 입니다. ", array1[1]);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

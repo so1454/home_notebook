@@ -1,0 +1,48 @@
+package 일차원배열;
+
+import java.util.Scanner;
+
+public class Ex06배열실습_숙제 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int [] array = new int[5];
+		
+		//입력받기
+		for ( int i = 0; i< array.length; i++) {
+			System.out.printf("%d번째 입력 >> ",i+1);
+			array[i] = sc.nextInt();
+			
+		}
+		//입력된 점수
+		System.out.print("입력된 점수 : ");
+		for (int i = 0; i < array.length ; i++) {
+			System.out.print(array[i] + " ");
+		}
+		
+		//최고점수
+		int max = 0;
+		max = array[1];
+		for(int i = 0; i < array.length; i++) {
+			max = array[i];
+			
+		}
+		System.out.print("최고점수 : " + max );
+		
+		
+		
+		//최저점수
+		//총합
+		//평균
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

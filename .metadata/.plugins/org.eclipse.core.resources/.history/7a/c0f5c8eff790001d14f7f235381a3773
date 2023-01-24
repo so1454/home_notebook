@@ -1,0 +1,18 @@
+package 일차원배열;
+
+public class Ex06배열실습_숙제 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.printf("%d번째 입력 >> ",1);
+		
+		
+		
+		
+		
+		
+	}
+
+}
